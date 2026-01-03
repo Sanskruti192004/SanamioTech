@@ -9,6 +9,7 @@ import CoreTechnologies from "./components/CoreTechnologies";
 import FeaturedProjects from "./components/FeaturedProjects";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import CtaSection from "./components/CtaSection";
 
 // Hero content with paragraph and buttons
 const HeroContent = () => {
@@ -148,6 +149,7 @@ function App() {
               <CoreTechnologies/>
               <FeaturedProjects/>
               <Testimonials/>
+              <CtaSection/>
               <Footer/>
 
             </div>
