@@ -1,0 +1,56 @@
+/* Container for hero buttons */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; /* space between buttons */
+  margin-top: 24px;
+}
+
+/* Orange primary button */
+.btn-primary {
+  background-color: "#3B82F6"; /* orange */
+  color: #ffffff; /* white text */
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: "#3B82F6"; /* darker orange on hover */
+}
+
+/* Arrow inside button */
+.btn-primary .arrow {
+  margin-left: 8px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .arrow {
+  transform: translateX(4px); /* move arrow slightly on hover */
+}
+
+/* Secondary button */
+.btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
