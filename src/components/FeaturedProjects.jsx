@@ -1,11 +1,12 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import Hero3 from "../assets/Hero3.png";
 
 const projects = [
   {
     badge: "Specialized",
-    image:
-      "https://images.unsplash.com/photo-1581091870627-3b8c1b1b0f59?auto=format&fit=crop&w=900&q=80",
+    image: Hero3,
+
     title: "IG Service Pune",
     description:
       "Professional website for a home appliance repair service in Pune specializing in fridge and washing machine repairs.",

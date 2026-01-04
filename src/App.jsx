@@ -10,6 +10,9 @@ import FeaturedProjects from "./components/FeaturedProjects";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import CtaSection from "./components/CtaSection";
+import HeroSection from "./components/HeroSection";
+import QuoteForm from "./components/QuoteFrom";
+
 
 // Hero content with paragraph and buttons
 const HeroContent = () => {
@@ -146,9 +149,12 @@ function App() {
             {/* Pull cards closer to Services */}
             <div style={{ marginTop: "-40px" }}>
               <ServicesCards />
+              
               <CoreTechnologies/>
               <FeaturedProjects/>
+              <HeroSection/>
               <Testimonials/>
+              
               <CtaSection/>
               <Footer/>
 
@@ -157,6 +163,7 @@ function App() {
           </div>
         </div>
       </div>
+      <QuoteForm/>
     </>
   );
 }

@@ -8,6 +8,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import msme from "../assets/msme.png";
 
 const Footer = () => {
   return (
@@ -98,11 +99,11 @@ const Footer = () => {
       </div>
 
       {/* MSME badge */}
-      <div className="flex justify-center items-center gap-4 pb-12 text-gray-500 text-sm">
+      <div className="flex justify-center items-center gap-4 pb-12 text-gray-500 text-sm rounded-sm">
         <img
-          src="/msme.png"
+          src={msme}
           alt="MSME"
-          className="h-10 object-contain"
+          className="h-10 object-contain rounded-sm"
         />
         <span>
           Udyam Registered Enterprise (UDYAM-MP-23-0236569)
